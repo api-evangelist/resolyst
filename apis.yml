@@ -1,7 +1,15 @@
 aid: resolyst
 name: Resolyst
-description: Resolyst is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Resolyst is a specialty-care platform that positions itself as the intelligence
+  layer for AI-enabled specialty care, extending the reach of the world's leading clinicians
+  with continuous, research-first expertise. Rather than episodic consultations, Resolyst
+  provides ongoing multidisciplinary medical oversight for patients with chronic conditions
+  through specialist nurses, pharmacists, dieticians, physiotherapists and psychologists,
+  connecting patients with local and international experts, embedding clinical research
+  into care pathways, and convening condition-specific international expert panels for
+  second opinions and clinical pathway oversight. Backed by Seedcamp, it is tracked in
+  the API Evangelist network as a company profile; no public API, developer portal, or
+  technical documentation surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/resolyst/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://resolyst.com/resolyst_og.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Specialty Care
+- Chronic Conditions
+- Digital Health
+- Clinical Research
+- Artificial Intelligence
+- Telemedicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://resolyst.com
+  url: https://www.resolyst.com
+- type: SignUp
+  url: https://www.resolyst.com/sign-in
+- type: DomainSecurity
+  url: security/resolyst-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
